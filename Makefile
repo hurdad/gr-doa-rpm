@@ -1,6 +1,6 @@
 # gr-doa
 version = 0.1
-release = 1
+release = 2
 name = gr-doa
 full_name = $(name)-$(version)
 download_url = "https://github.com/hurdad/$(name)/archive/v$(version).tar.gz"
