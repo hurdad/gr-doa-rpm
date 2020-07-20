@@ -23,7 +23,7 @@ Direction-of-Arrival (DoA) Demo for GNU Radio (OOT) with the USRP™ X-Series an
 %setup
 
 %build
-cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DBOOST_INCLUDEDIR=/usr/include/boost169/ -DBOOST_LIBRARYDIR=/usr/lib64/boost169/
 make %{?_smp_mflags}
 
 %install
